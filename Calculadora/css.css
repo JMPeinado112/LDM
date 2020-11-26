@@ -1,38 +1,57 @@
-body{
-    background-color: white;
-    color: white;
-    font-size: 15px;
-    font-family: sans-serif;
-    background-image: url(bh.jpg);
-    margin-left: 700px;
-
+body {
+  background-color: white;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-image: url(bh.jpg);
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+  text-align: center;
 }
-
-h2{
-    font-family: monospace;
-    font-size: 20px;
+.text {
+  width: 100px;
+  height: 50px;
+  text-align: right;
 }
-h3{
-    font-family: arial ;
-    font-size: 15px;
+h2 {
+  font-family: monospace;
+  font-size: 20px;
 }
-button{
-	background-color:white;
-	color:black;
-	text-decoration:none;
-	padding:10px 10px;
-	font-family: monospace;
-	opacity: 85%;
-    border: 1;
+h3 {
+  font-family: arial;
+  font-size: 15px;
 }
-button:hover{
-    color: grey;
+button {
+  background-color: rgb(43, 38, 38);
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-family: monospace;
+  opacity: 85%;
+  border: 1;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
-button:active{
-    color: rgb(93, 236, 65);
+.igual {
+  color: aquamarine;
+  background-color: rgb(43, 38, 38);
+  text-decoration: none;
+  padding: 10px 10px;
+  font-family: monospace;
+  opacity: 85%;
+  border: 1;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
-footer{
-padding-top: 55%;
-
-
+button:hover {
+  color: grey;
+}
+button:active {
+  color: rgb(93, 236, 65);
+}
+footer {
+  padding-top: 55%;
 }
